@@ -12,7 +12,7 @@ data class Engine(val name: String = "V8") {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val engine = Engine()
     val car = Car(engine)
     car.start()
